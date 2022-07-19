@@ -1,0 +1,7 @@
+---
+applications:
+  - name: ahmad-example-app
+    memory: 256
+    instances: 1
+    path: .
+    buildpacks: [go_buildpack]
